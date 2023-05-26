@@ -9,3 +9,14 @@ You should have a form where a user is able to input the cost of the meal.
 -Display the total tip amount as well so they know how much they're tipping.
 -Send me the project for review and get started on the next project.
 */
+
+let myForm = document.querySelector('#myForm');
+let costOfMeal = document.querySelector('#costOfMeal');
+let tipPercentage = document.querySelector('#tip');
+let submit = document.querySelector('#submit');
+let totalAndTip = document.querySelector('#totalAndTipAdded');
+let totalTipAmount = document.querySelector('#totalTipAmount');
+
+submit.addEventListener('click', function() {
+  
+})
