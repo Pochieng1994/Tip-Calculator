@@ -1,10 +1,29 @@
+.header {
+  margin-left: 350px;
+}
+
+#myForm {
+  margin-left: 250px;
+}
+
 #costOfMeal {
-  margin-left: 122px;
+  margin-left: 155px;
+}
+
+#tip {
+  margin-left: 38px;
 }
 
 #submit {
-  margin-left: 352px;
+  margin-left: 502px;
 }
 
+#totalAndTipAdded {
+  margin-left: 247px;
+}
+
+#totalTipAmount {
+  margin-left: 247px;
+}
 
 

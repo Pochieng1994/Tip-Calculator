@@ -14,9 +14,20 @@ let myForm = document.querySelector('#myForm');
 let costOfMeal = document.querySelector('#costOfMeal');
 let tipPercentage = document.querySelector('#tip');
 let submit = document.querySelector('#submit');
-let totalAndTip = document.querySelector('#totalAndTipAdded');
+let totalAndTipAdded = document.querySelector('#totalAndTipAdded');
 let totalTipAmount = document.querySelector('#totalTipAmount');
 
 submit.addEventListener('click', function() {
-  
+  input1 = Number(costOfMeal.value);
+  input2 = Number(tipPercentage.value);
+
+  if(tipAmount = input1 * (input2 / 100)) { 
+    totalAndTipAdded.textContent = `Cost Of Meal With Tip Added: $${input1 + tipAmount}`;
+    totalTipAmount.textContent = `Total Tip Amount: $${tipAmount}`;
+  }
 })
+
+myForm.addEventListener('click', function(e) {
+  e.preventDefault();
+})
+
